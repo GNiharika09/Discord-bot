@@ -5,8 +5,7 @@ import openai
 import os
 
 # Set your OpenAI API key here (ensure it's stored securely, not directly in the code)
-openai.api_key = os.getenv('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')  # Fetch it from an environment variable
-
+openai.api_key = os.getenv('sk')
 class GenshinQuizBot(discord.Client):
     def __init__(self, intents):
         super().__init__(intents=intents)
